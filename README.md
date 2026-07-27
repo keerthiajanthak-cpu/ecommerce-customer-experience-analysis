@@ -25,11 +25,12 @@ This project analyzes over 96,000 delivered orders to uncover patterns in revenu
 - **Power BI** — dashboard and visualization
 
 ## Project Structure
-├── data/
-│ ├── raw/ # Original Olist dataset CSVs
-│ └── cleaned/ # Final dataset used for the dashboard
-├── power bi/ # Power BI dashboard export (PDF)
-└── sql/ # SQL analysis queries
+
+- **data/**
+  - **raw/** — Original Olist dataset CSVs
+  - **cleaned/** — Final dataset used for the dashboard
+- **power bi/** — Power BI dashboard export (PDF)
+- **sql/** — SQL analysis queries
 
 ## Data Source
 
