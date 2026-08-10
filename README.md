@@ -26,11 +26,27 @@ This project analyzes over 96,000 delivered orders to uncover patterns in revenu
 
 ## Project Structure
 
-- **data/**
-  - **raw/** — Original Olist dataset CSVs
-  - **cleaned/** — Final dataset used for the dashboard
-- **power bi/** — Power BI dashboard export (PDF)
-- **sql/** — SQL analysis queries
+```
+ecommerce-customer-experience-analysis/
+├── data/
+│   ├── cleaned/
+│   │   └── dashboard_data.csv
+│   └── raw/
+│       ├── olist_customers_dataset.csv
+│       ├── olist_order_items_dataset.csv
+│       ├── olist_order_payments_dataset.csv
+│       ├── olist_order_reviews_dataset.csv
+│       ├── olist_orders_dataset.csv
+│       ├── olist_products_dataset.csv
+│       ├── olist_sellers_dataset.csv
+│       └── product_category_name_translation.csv
+├── power bi/
+│   └── Ecommerce_Analysis PowerBI Dashboard.pdf
+├── screenshots/
+│   └── Screenshot 2026-07-16 at 12.44.54 pm
+└── sql/
+    └── ecommerce_analysis_queries.sql
+```
 
 ## Data Source
 
