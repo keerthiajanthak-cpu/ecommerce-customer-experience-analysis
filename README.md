@@ -51,9 +51,3 @@ ecommerce-customer-experience-analysis/
 ## Data Source
 
 [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
-
-## How to Run
-
-1. Import the raw CSVs from `data/raw/` into a MySQL database
-2. Run the queries in `sql/ecommerce_analysis_queries.sql` in order (they're numbered and documented with business questions)
-3. The final query builds a clean dataset used to power the Power BI dashboard
